@@ -180,7 +180,6 @@ public class MultipleDeviceServicesActivity extends Activity {
         // Sets up UI references.
         deviceAddress = (TextView) findViewById(R.id.device_address);
         connectionState = (TextView) findViewById(R.id.connection_state);
-        dataField = (TextView) findViewById(R.id.data_value);
 		heartRateField = (TextView) findViewById(R.id.heartrate_value);
 
         startService(new Intent(this, BleMultipleDevicesService.class));

@@ -233,7 +233,6 @@ public class DeviceServicesActivity extends Activity {
         gattServicesList = (ExpandableListView) findViewById(R.id.gatt_services_list);
         gattServicesList.setOnChildClickListener(servicesListClickListner);
         connectionState = (TextView) findViewById(R.id.connection_state);
-        dataField = (TextView) findViewById(R.id.data_value);
 		heartRateField = (TextView) findViewById(R.id.heartrate_value);
 
 		demoButton = (Button) findViewById(R.id.demo);

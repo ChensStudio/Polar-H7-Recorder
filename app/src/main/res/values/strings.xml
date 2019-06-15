@@ -17,7 +17,7 @@
     <string name="app_name">BLE Polar H7 Recorder</string>
     <string name="ble_not_supported">Bluetooth LE is not supported</string>
     <string name="label_data">Data:</string>
-        <string name="label_heartrate">Heart rate:</string>
+    <string name="label_heartrate">Heart rate:</string>
     <string name="label_device_address">Device address:</string>
     <string name="label_state">State:</string>
     <string name="label_services">Services</string>
@@ -26,6 +26,10 @@
     <string name="disconnected">Disconnected</string>
     <string name="title_devices">Bluetooth LE Device Scan</string>
     <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="label_alarm">Alarm</string>
+    <string name="tx_min">Min: 80</string>
+    <string name="tx_max">Max: 180</string>
 
     <string name="action_demo">Demo</string>
 
